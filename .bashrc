@@ -90,6 +90,9 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias gpp='g++ -std=c++14'
+
+
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -142,4 +145,7 @@ export LC_MESSAGES='ja_JP.UTF-8'
 # vim のキーバインドを使用
 set -o vi
 
+export DOCKER_HOST='tcp://0.0.0.0:2375'
+
+source ~/.cargo/env
 
